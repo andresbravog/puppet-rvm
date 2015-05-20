@@ -5,7 +5,7 @@ class rvm::dependencies::ubuntu {
   if ! defined(Package['openssl'])              { package { 'openssl':              ensure => present } }
   if ! defined(Package['libreadline6'])         { package { 'libreadline6':         ensure => present } }
   if ! defined(Package['libreadline6-dev'])     { package { 'libreadline6-dev':     ensure => present } }
-  if ! defined(Package['curl'])                 { package { 'curl':                 ensure => present } }
+  if ! defined(Package['wget'])                 { package { 'wget':                 ensure => present } }
   if ! defined(Package['git-core'])             { package { 'git-core':             ensure => present } }
   if ! defined(Package['zlib1g'])               { package { 'zlib1g':               ensure => present } }
   if ! defined(Package['zlib1g-dev'])           { package { 'zlib1g-dev':           ensure => present } }
